@@ -7,6 +7,12 @@ esac
 export HF_HOME="/workspace/.cache/huggingface/"
 export UV_CACHE_DIR="/workspace/.cache/uv"
 
+# --------- Folder highlighting -----------
+
+eval "$(dircolors)"  # Load the default dircolors
+LS_COLORS=${LS_COLORS/ow=[0-9;]*/ow=01;34}  # Change only other-writable (777) dirs to look like normal dirs
+export LS_COLORS
+
 # --------- Bash hisotry -----------
 
 # Append to the ~/.bash_history immediately

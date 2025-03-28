@@ -20,8 +20,9 @@ shopt -s histappend
 PROMPT_COMMAND='history -a'
 
 # Long history
-HISTSIZE=1000000
-HISTFILESIZE=2000000
+export HISTSIZE=1000000
+export HISTFILESIZE=2000000
+export HISTFILE=/workspace/.bash_history
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options

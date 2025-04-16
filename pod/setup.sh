@@ -9,7 +9,8 @@ su -c 'apt-get update && apt-get install -y sudo'
 sudo apt-get install -y less nano htop ncdu nvtop lsof rsync btop jq tmux npm vim
 
 # Apply .bashrc
-cp /workspace/dotfiles/pod/.bashrc $HOME/.bashrc
+cp /workspace/dotfiles/pod/.bashrc $HOME/
+cp /workspace/dotfiles/pod/.tmux.conf $HOME/
 source $HOME/.bashrc
 
 # Configure git user details

@@ -5,7 +5,6 @@ case $- in
 esac
 
 export HF_HOME="/workspace/.cache/huggingface/"
-export UV_CACHE_DIR="/workspace/.cache/uv"
 
 # --------- Folder highlighting -----------
 

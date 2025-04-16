@@ -5,6 +5,7 @@ case $- in
 esac
 
 export HF_HOME="/workspace/.cache/huggingface/"
+export NETRC="/workspace/.netrc"
 
 # --------- Folder highlighting -----------
 

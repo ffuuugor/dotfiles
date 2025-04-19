@@ -2,6 +2,7 @@
 #
 # RunPod Environment Setup
 #
+set -uoe pipefail
 
 # Install sudo if not available
 su -c 'apt-get update && apt-get install -y sudo'

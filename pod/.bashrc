@@ -6,6 +6,7 @@ esac
 
 export HF_HOME="/workspace/.cache/huggingface/"
 export NETRC="/workspace/.netrc"
+export OMP_NUM_THREADS=16
 
 # --------- Folder highlighting -----------
 

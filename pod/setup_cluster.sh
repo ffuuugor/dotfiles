@@ -5,6 +5,8 @@
 set -uoe pipefail
 
 cp /workspace/igors/dotfiles/pod/.bashrc $HOME/
+cp /workspace/igors/dotfiles/pod/.zshrc $HOME/
+cp /workspace/igors/dotfiles/pod/.zshenv $HOME/
 cp /workspace/igors/dotfiles/pod/.tmux.conf $HOME/
 source $HOME/.bashrc
 

@@ -7,7 +7,7 @@ esac
 export HF_HOME="/workspace/igors/.cache/huggingface/"
 export NETRC="/workspace/igors/.netrc"
 
-export PATH="~/.npm-global/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
 export OMP_NUM_THREADS=16
 
 # --------- Folder highlighting -----------

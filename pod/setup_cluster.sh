@@ -4,8 +4,6 @@
 #
 set -uoe pipefail
 
-mkdir -p 
-
 cp /workspace/igors/dotfiles/pod/.bashrc $HOME/
 cp /workspace/igors/dotfiles/pod/.tmux.conf $HOME/
 source $HOME/.bashrc
@@ -15,8 +13,8 @@ git config --global user.email "hello@igorshilov.com"
 git config --global user.name "Igor Shilov"
 
 # Claude code
-mkdir ~/.npm-global
-npm config set prefix '~/.npm-global'
+mkdir $HOME/.npm-global
+npm config set prefix '$HOME/.npm-global'
 
 npm install -g @anthropic-ai/claude-code
 

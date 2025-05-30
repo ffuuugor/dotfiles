@@ -13,7 +13,7 @@ git config --global user.email "hello@igorshilov.com"
 git config --global user.name "Igor Shilov"
 
 # Claude code
-mkdir $HOME/.npm-global
+mkdir -p $HOME/.npm-global
 npm config set prefix '$HOME/.npm-global'
 
 npm install -g @anthropic-ai/claude-code

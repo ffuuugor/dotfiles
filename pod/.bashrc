@@ -4,8 +4,10 @@ case $- in
       *) return;;
 esac
 
-export HF_HOME="/workspace/.cache/huggingface/"
-export NETRC="/workspace/.netrc"
+export HF_HOME="/workspace/igors/.cache/huggingface/"
+export NETRC="/workspace/igors/.netrc"
+
+export PATH="~/.npm-global/bin:$PATH"
 export OMP_NUM_THREADS=16
 
 # --------- Folder highlighting -----------
@@ -23,7 +25,7 @@ PROMPT_COMMAND='history -a'
 # Long history
 export HISTSIZE=1000000
 export HISTFILESIZE=2000000
-export HISTFILE=/workspace/.bash_history
+export HISTFILE=/workspace/igors/.bash_history
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options

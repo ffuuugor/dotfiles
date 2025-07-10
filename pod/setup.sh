@@ -12,6 +12,7 @@ sudo apt-get install -y less nano htop ncdu nvtop lsof rsync btop jq tmux npm vi
 # Apply .bashrc
 cp /workspace/igors/dotfiles/pod/.bashrc $HOME/
 cp /workspace/igors/dotfiles/pod/.tmux.conf $HOME/
+cp /workspace/igors/dotfiles/pod/rc $HOME/.ssh/
 source $HOME/.bashrc
 
 # Configure git user details

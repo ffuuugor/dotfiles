@@ -6,8 +6,7 @@ esac
 
 # --------- Custom setting -----------
 export HF_HOME="/home/igor/rds/ephemeral/.cache/huggingface/"
-. "$HOME/.cargo/env"
-
+export UV_CACHE_DIR="/data/igor/.cache/uv"
 
 # --------- Bash hisotry -----------
 

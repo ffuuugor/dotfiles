@@ -14,6 +14,7 @@ SERVERS=(
 FILES_TO_SYNC=(
     ".bash_aliases"
     ".bashrc"
+    ".tmux.conf"
 )
 
 for server in "${SERVERS[@]}"; do

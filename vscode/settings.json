@@ -1,0 +1,127 @@
+{
+    "editor.semanticTokenColorCustomizations": {},
+    "workbench.colorTheme": "Laravel",
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "statusBar.background": "#3a5a7c"
+        },
+        "[Laravel]": {
+            "editorBracketHighlight.foreground1": "#000000",
+            "notebook.editorBackground": "#fefefe",
+            "editorSuggestWidget.selectedBackground": "#cccccc",
+            "editorSuggestWidget.selectedForeground": "#000000",
+            "notebook.cellEditorBackground": "#f5f5f5",
+            "editor.background": "#fdfdfd",
+            "activityBar.background": "#fafafa",
+            "sideBar.background": "#fafafa",
+            "statusBar.background": "#fafafa",
+            "editor.selectionBackground": "#c8cbdf",
+            "editor.wordHighlightBackground": "#00000013",
+        }
+    },
+    "editor.tokenColorCustomizations": {
+        "[Laravel]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable.parameter.function-call",
+                    ],
+                    "settings": {
+                        "foreground": "#5853bc",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter.function.language.special.self.python",
+                    ],
+                    "settings": {
+                        "foreground": "#5853bc",
+                    }
+                }
+            ]
+        }
+    },
+    // "python.analysis.completeFunctionParens": true,
+    "autopep8.args": [
+        "--max-line-length",
+        "120"
+    ],
+    "black-formatter.args": [
+        "--line-length",
+        "120"
+    ],
+    "editor.rulers": [
+        120
+    ],
+    "python.analysis.ignore": [
+        "**/*.ipynb"
+    ],
+    "python.analysis.exclude": [
+        "**/data/**",
+        "**/wandb/**"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnusedVariable": "warning",
+        "reportUnusedImport": "warning",
+        "reportUndefinedVariable": "error",
+    },
+    "files.autoSave": "afterDelay",
+    "editor.formatOnPaste": false,
+    "notebook.output.wordWrap": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "git.autofetch": true,
+    "python.analysis.fixAll" : ["source.unusedImports"],
+    "ruff.fixAll": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.suggest.showStatusBar": true,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Laravel",
+    "window.autoDetectColorScheme": true,
+    "debug.focusWindowOnBreak": false,
+    "python.testing.pytestArgs": [
+        "--capture=no"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.parameterHints.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.useTabStops": false,
+    "notebook.editorOptionsCustomizations": {
+        "editor.insertSpaces": true
+    },
+    "outline.showVariables": false,
+    "remote.SSH.connectTimeout": 360,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "accessibility.verbosity.inlineChat": false,
+    "inlineChat.enableV2": true,
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "jupyter.debugJustMyCode": false,
+    "debugpy.debugJustMyCode": false,
+    "git.confirmSync": false,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "latex-workshop.intellisense.update.delay": 1000000,
+    "editor.wordWrapColumn": 120,
+    "github.copilot.chat.anthropic.tools.websearch.enabled": true,
+    "jupyter.askForKernelRestart": false,
+    "editor.lightbulb.enabled": "off"
+}

@@ -4,11 +4,11 @@ set -u
 
 SERVERS=(
     "cpg-asahi"
-    "cpg-moretti"
     "cpg-tofu"
     "cpg-cozonac"
     "cpg-ciorba"
     "cpg-dab"
+    "cpg-phoenix"
 )
 
 FILES_TO_SYNC=(
